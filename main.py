@@ -1,6 +1,6 @@
-#user input date mm/dd/yyyy
+#user input date mm/dd/yyyy format
 initial_date = input('Enter a date in the mm/dd/yyyy format: ')
-#remove / 
+#remove 
 date_list = initial_date.split('/')
 #convert mm to respective month
 if date_list[0] == '01':
